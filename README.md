@@ -6,7 +6,9 @@ Brotli was chosen, because it compressed class files
 [about 2x smaller](https://git.wut.ee/mikroskeem/java-class-compression-research) (depending on class file size)
 
 ## Notes
-Custom classloader is required. That's under development right now.
+Custom classloader is required. I've made simple 
+[(Shuriken) classloader implementation](https://git.mikroskeem.eu/mikroskeem/Shuriken/src/master/classloader)
+for this purpose
 
 ## POM snippet:
 
