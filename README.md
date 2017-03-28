@@ -11,8 +11,24 @@ Custom classloader is required. I've made simple
 for this purpose
 
 ## POM snippet:
+###Maven repository:
 
+```xml
+<repository>
+    <id>mikroskeem-repo</id>
+    <name>mikroskeem Maven Repository</name>
+    <url>https://repo.wut.ee/repository/mikroskeem-repo/</url>
+    <releases>
+        <enabled>true</enabled>
+    </releases>
+    <snapshots>
+        <enabled>true</enabled>
+    </snapshots>
+</repository>
 ```
+
+### Maven plugin:
+```xml
 <plugin>
     <groupId>eu.mikroskeem</groupId>
     <artifactId>shuriken.mavenplugin</artifactId>
