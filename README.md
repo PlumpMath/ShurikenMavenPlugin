@@ -11,7 +11,7 @@ Custom classloader is required. I've made simple
 for this purpose
 
 ## POM snippet:
-###Maven repository:
+### Maven repository:
 
 ```xml
 <repository>
