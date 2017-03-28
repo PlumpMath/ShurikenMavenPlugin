@@ -34,13 +34,13 @@ for this purpose
     <artifactId>shuriken.mavenplugin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <configuration>
-        <sourceJar>target/${project.build.finalName}.jar</sourceJar>             <!-- Source jar -->
-        <targetJar>target/${project.build.finalName}-compressed.jar</targetJar>  <!-- Target jar -->
-        <replaceMainJar>false</replaceMainJar>                                   <!-- To replace source jar -->
+        <sourceJarName>target/${project.build.finalName}.jar</sourceJarName>             <!-- Source jar -->
+        <targetJarName>target/${project.build.finalName}-compressed.jar</targetJarName>  <!-- Target jar -->
+        <replaceMainJar>false</replaceMainJar>                                           <!-- To replace source jar -->
     </configuration>
     <executions>
         <execution>
-            <phase>package</phase>                                               <!-- Bind to package goal -->
+            <phase>package</phase>                                                       <!-- Bind to package goal -->
             <goals>
                 <goal>shuriken</goal>
             </goals>
