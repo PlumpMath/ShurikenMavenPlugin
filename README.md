@@ -7,7 +7,7 @@ Brotli was chosen, because it compressed class files
 
 ## Notes
 Custom classloader is required. I've made simple 
-[(Shuriken) classloader implementation](https://git.mikroskeem.eu/mikroskeem/Shuriken/src/master/classloader)
+[(Shuriken) classloader implementation](https://github.com/mikroskeem/Shuriken/tree/master/classloader)
 for this purpose
 
 ## POM snippet:
